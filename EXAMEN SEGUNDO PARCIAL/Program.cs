@@ -32,8 +32,8 @@ class Program
     static void Main()
     {
         var biblioteca = new Biblioteca();
-        biblioteca.AgregarMaterial(new Libro { Titulo = "1984", Autor = "Orwell", NumeroDePaginas = 328 });
-        biblioteca.AgregarMaterial(new Revista { Titulo = "National Geographic", Autor = "Varios", NumeroDeEdicion = 123 });
+        biblioteca.AgregarMaterial(new Libro { Titulo = "La casa rodante", Autor = "Diego A. Castillo", NumeroDePaginas = 28 });
+        biblioteca.AgregarMaterial(new Revista { Titulo = "LA QUEMACION", Autor = "Diego A. Castillo", NumeroDeEdicion = 92 });
         biblioteca.MostrarTodos();
     }
 }
